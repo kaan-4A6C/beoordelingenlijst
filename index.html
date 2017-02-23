@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="beoordelingslijst.js"></script>
+    <title>progammeertechnieken</title>
+
+    <style media="screen">
+      #resultaat{
+        padding: 5px;
+        width: 75%;
+        height: 400px;
+        overflow: auto;
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="input" type="number" min="0" max="100" value="60"><button onclick="cijfer()" type="button">Toevoegen</button> <br>
+    <input id="input1" type="number" min="0" max="100" value="60"><button onclick="cijfer1()" type="button">Toevoegen</button>
+    <div id="resultaat"></div>
+  </body>
+</html>
