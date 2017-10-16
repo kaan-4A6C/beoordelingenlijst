@@ -2,11 +2,11 @@ function bereken(input){
   var beoordeling;
   if (input >= 0 && input <= 49) {
     beoordeling = " onvoldoende";
-  } else if (input >= 50 && input <= 59) {
+  } else if (input <= 59) {
     beoordeling = " matig";
-  } else if (input >= 60 && input <= 74) {
+  } else if (input <= 74) {
     beoordeling = " voldoende";
-  } else if (input >= 75 && input <= 100) {
+  } else if (input <= 100) {
     beoordeling = " goed";
   }
   return beoordeling;
